@@ -58,6 +58,7 @@ int main(int argc, char *argv[])
 void print_help()
 {
 	print_usage();
+	printf("\n");
 	printf("Booker can be used for coolness\n");
 }
 
