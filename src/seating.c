@@ -43,15 +43,18 @@ void print_seating_plan()
 			{
 				if (rows[i][j] < 10)
 				{
+					// 3 spaces, 1 digit
 					printf(" %d  ", rows[i][j]);
 				}
 				else
 				{
+					// 2 spaces, 2 digits
 					printf("%d  ", rows[i][j]);	
 				}
 			}
 			else
 			{
+				// Four spaces
 				printf("    ");
 			}
 		}
