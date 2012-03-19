@@ -2,7 +2,8 @@
 
 void book_seat(char seat[])
 {
-	printf("Seat booked.\n");
+	printf("Booking seat: %s\n", seat);
+	printf("Booked.\n");
 }
 
 void booked_seats()
@@ -20,7 +21,8 @@ void print_book_help()
 
 void refund_seat(char seat[])
 {
-	printf("Seat refunded.\n");
+	printf("Refunding seat: %s\n", seat);
+	printf("Refunded.\n");
 }
 
 void refunded_seats()
