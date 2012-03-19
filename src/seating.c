@@ -62,3 +62,15 @@ void print_seating_plan()
 		printf("\n\n");
 	}
 }
+
+int valid_seat(char seat[])
+{
+	if (seat[0] >= 'A' && seat[0] <= 'H')
+	{
+		// Valid
+		return 1;
+	}
+
+	// Invalid
+	return 0;
+}

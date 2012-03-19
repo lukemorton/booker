@@ -16,6 +16,11 @@ int main(int argc, char *argv[])
 				print_book_help();
 				return 1;
 			}
+			else if ( ! valid_seat(argv[2]))
+			{
+				printf("Seat invalid.\n");
+				return 1;
+			}
 
 			book_seat(argv[2]);
 			return 0;
@@ -25,6 +30,11 @@ int main(int argc, char *argv[])
 			if (argc != 3)
 			{
 				print_refund_help();
+				return 1;
+			}
+			else if ( ! valid_seat(argv[2]))
+			{
+				printf("Seat invalid.\n");
 				return 1;
 			}
 

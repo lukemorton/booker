@@ -7,3 +7,5 @@
 
 void seating_row(int max, int row[]);
 void print_seating_plan();
+
+int valid_seat(char seat[]);
