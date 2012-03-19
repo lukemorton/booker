@@ -1,11 +1,5 @@
 #include "booker.h"
 
-// Seating plan
-// process an order for tickets including purchasing and refunding tickets
-// update seating plan with available seats indicated to allow availability checking
-// saving all the records of bookngs and refunds
-// producing summary reports for bookings
-
 int main(int argc, char *argv[])
 {
 	if (argc > 1)
